@@ -1,0 +1,194 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 16px 0px;
+}
+
+button
+{
+    background: #3882f6;
+    color:#e5e7eb;
+    padding: 8px 16px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer
+{
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.logo
+{
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.hero.main
+{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.hero.secondary,
+.header.link
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info.header
+{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.d-color
+{
+    background: #1f2937;
+}
+
+.w-text
+{
+    color: #e5e7eb;
+}
+
+.quote.text
+{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.nav
+{
+    display: flex;
+    gap: 32px;
+}
+
+.header-nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lr-padding
+{
+    padding:0px 150px;
+}
+
+.header-main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.header-main button
+{
+    border: none;
+}
+.header-main>.header-left
+{
+    width: 420px;
+}
+
+.header-main>.header-right
+{
+    width: 500px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #47546d;
+}
+
+.cards
+{
+    text-align: center;
+}
+
+.cards .container
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.container .card
+{
+    width: 200px;
+}
+
+.card div
+{
+    border: 4px solid #3882f6;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card p
+{
+    color:#1f2937;
+    font-size: 18px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial
+{
+    background: #e5e7eb;
+    padding: 50px 300px;
+}
+
+.testimonial h4
+{
+    text-align: end;
+    font-size: 24px;
+}
+
+.container1
+{
+    display: flex;
+    justify-content: space-between;
+    color:#e5e7eb;
+    background: #3882f6;
+    width: 70%;
+    margin: 75px auto;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.container1 button
+{
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    color: #e5e7eb;;
+    align-self: center;
+}
+
+.container1 h4
+{
+    font-weight: bold;
+    color: #e5e7eb;
+    font-size: 24px;
+}

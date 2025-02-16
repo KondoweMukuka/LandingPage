@@ -131,7 +131,7 @@ button
     background: #e5e7eb;
 }
 
-.layer2>p
+.layer.layer2 > p
 {
     width: 80%;
     margin: 0 auto;
